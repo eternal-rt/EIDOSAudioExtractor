@@ -34,6 +34,8 @@ This is the same core algorithm used by IMA ADPCM, with the exact layout Project
 
 The script also applies optional gain and peak normalization after decoding.
 
+![decoded](decoded.png)
+
 ---
 
 ### Important
