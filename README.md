@@ -34,7 +34,12 @@ This is the same core algorithm used by IMA ADPCM, with the exact layout Project
 
 The script also applies optional gain and peak normalization after decoding.
 
-![decoded](decoded.png)
+<table>
+  <tr>
+    <td><img src="decoding.png" alt="decoding" width="100%"></td>
+    <td><img src="decoded.png" alt="decoded" width="100%"></td>
+  </tr>
+</table>
 
 ---
 
