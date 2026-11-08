@@ -17,9 +17,9 @@ This script finds those chunks, decompresses the audio, and writes standard 16-b
 
 Each audio payload starts with a short header:
 
-- 2 bytes → initial predictor (signed 16-bit)
-- 1 byte  → starting step index
-- 1 byte  → unused / padding
+- 2 bytes -> initial predictor (signed 16-bit)
+- 1 byte  -> starting step index
+- 1 byte  -> unused / padding
 
 The rest of the data is packed as 4-bit nibbles.  
 For every nibble the decoder:
@@ -38,11 +38,11 @@ The script also applies optional gain and peak normalization after decoding.
 
 ### Important
 
-**This decoder is not perfect.**
+**This decoder isn't completely perfect since I originally built it just for personal use, but I hope you find it helpful!**
 
 - Most voice lines come out clean and usable.
 - Many sound effects still have noise, crackling, or distortion.
 - Some clips decode better than others depending on how they were originally encoded.
-- Gain and normalization only change volume — they cannot fix decoding artifacts.
+- Gain and normalization only change volume, they cannot fix decoding artifacts.
 
 The tool is good enough for ripping dialogue and a lot of the SFX, but don’t expect studio-quality results from every file.
