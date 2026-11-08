@@ -46,10 +46,3 @@ The script also applies optional gain and peak normalization after decoding.
 - Gain and normalization only change volume — they cannot fix decoding artifacts.
 
 The tool is good enough for ripping dialogue and a lot of the SFX, but don’t expect studio-quality results from every file.
-
----
-
-### Usage
-
-```bash
-python project_eden_extractor.py
